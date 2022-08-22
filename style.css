@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+nav{
+    height: 400px;
+    width: 100%;
+    background-color:#1A2B4C;
+    color: white;
+    text-align: center;
+}
+.headerTitle{
+    padding-top: 130px;
+}
+.headerText{
+    padding-top: 20px;
+}
