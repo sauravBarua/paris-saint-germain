@@ -14,4 +14,7 @@ nav{
 }
 .headerText{
     padding-top: 20px;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
 }
