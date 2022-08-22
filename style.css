@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    width: 100%;
 }
 
 nav{
@@ -8,6 +7,8 @@ nav{
     background-color:#1A2B4C;
     color: white;
     text-align: center;
+    width: 100%;
+
 }
 .headerTitle{
     padding-top: 100px;
@@ -18,11 +19,22 @@ nav{
     height: auto;
     margin-left: 25%;
 }
+.selected{
+    height: 300px;
+    width: 350px;
+    border: solid 1px black;
+}
+.budget{
+    height: 500px;
+    width: 350px;
+    border: solid 1px black;
+}
 footer{
     height: 200px;
     background-color:#1A2B4C;
     color: white;
     text-align: center;
+    width: 100%;
 }
 .footerText{
     padding-top: 50px;
