@@ -9,21 +9,27 @@ function playerSelected(data) {
 
 function buttonDisabled1() {
   document.getElementById("player1").disabled = true;
+  document.getElementById("player1").style.background='#808080';
 }
 function buttonDisabled2() {
   document.getElementById("player2").disabled = true;
+  document.getElementById("player2").style.background='#808080';
 }
 function buttonDisabled3() {
   document.getElementById("player3").disabled = true;
+  document.getElementById("player3").style.background='#808080';
 }
 function buttonDisabled4() {
   document.getElementById("player4").disabled = true;
+  document.getElementById("player4").style.background='#808080';
 }
 function buttonDisabled5() {
   document.getElementById("player5").disabled = true;
+  document.getElementById("player5").style.background='#808080';
 }
 function buttonDisabled6() {
   document.getElementById("player6").disabled = true;
+  document.getElementById("player6").style.background='#808080';
 }
 
 function budgetCalculater() {
