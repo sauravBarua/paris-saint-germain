@@ -31,7 +31,7 @@
         <div class="row">
           <div class="col-8">
             <!-- Cards -->
-            <div class="cards ">
+            <div class="cards">
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col text-center">
                   <div class="card h-100">
@@ -44,7 +44,14 @@
                       <h5 class="card-title">Kylian Mbappé</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
                       <!-- <a id ="player1" onclick="playerSelected('Kylian Mbappé')"href="#" class="button">SELECT</a> -->
-                      <button id ="player1" type="button" onclick="playerSelected('Kylian Mbappé'); buttonDisabled1()" class="button">SELECT</button>
+                      <button
+                        id="player1"
+                        type="button"
+                        onclick="playerSelected('Kylian Mbappé'); buttonDisabled1()"
+                        class="button"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -59,7 +66,14 @@
                       <h5 class="card-title">Lionel Messi</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
                       <!-- <a onclick="playerSelected('Lionel Messi')" href="#" class="button">SELECT</a> -->
-                      <button id ="player2" onclick="playerSelected('Lionel Messi');buttonDisabled2()" href="#" class="button">SELECT</button>
+                      <button
+                        id="player2"
+                        onclick="playerSelected('Lionel Messi');buttonDisabled2()"
+                        href="#"
+                        class="button"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -74,7 +88,13 @@
                       <h5 class="card-title">Neymar Jr</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
                       <!-- <a onclick="playerSelected('Neymar Jr')" href="#" class="button">SELECT</a> -->
-                      <button id ="player3" onclick="playerSelected('Neymar Jr');buttonDisabled3()" class="button">SELECT</button>
+                      <button
+                        id="player3"
+                        onclick="playerSelected('Neymar Jr');buttonDisabled3()"
+                        class="button"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -89,7 +109,13 @@
                       <h5 class="card-title">Achraf Hakimi</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
                       <!-- <a onclick="playerSelected('Achraf Hakimi')" href="#" class="button">SELECT</a> -->
-                      <button id ="player4" onclick="playerSelected('Achraf Hakimi');buttonDisabled4()" class="button">SELECT</button>
+                      <button
+                        id="player4"
+                        onclick="playerSelected('Achraf Hakimi');buttonDisabled4()"
+                        class="button"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -104,7 +130,14 @@
                       <h5 class="card-title">Gianluigi Donnarumma</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
                       <!-- <a onclick="playerSelected('Gianluigi Donnarumma')" href="#" class="button">SELECT</a> -->
-                      <button id ="player5" onclick="playerSelected('Gianluigi Donnarumma');buttonDisabled5()" href="#" class="button">SELECT</button>
+                      <button
+                        id="player5"
+                        onclick="playerSelected('Gianluigi Donnarumma');buttonDisabled5()"
+                        href="#"
+                        class="button"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -119,7 +152,13 @@
                       <h5 class="card-title">Sergio Ramos</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
                       <!-- <a onclick="playerSelected('Sergio Ramos')" href="#" class="button">SELECT</a> -->
-                      <button id ="player6" onclick="playerSelected('Sergio Ramos');buttonDisabled6()" class="button">SELECT</button>
+                      <button
+                        id="player6"
+                        onclick="playerSelected('Sergio Ramos');buttonDisabled6()"
+                        class="button"
+                      >
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -132,18 +171,21 @@
             <div class="sidemenu col-4">
               <div class="selected">
                 <h2 class="text-center">Selected-V</h2>
-                <ol id="playerName">
-                </ol>
+                <ol id="playerName"></ol>
               </div>
               <div class="budget mt-4 text-center">
                 <h2>Budget</h2>
                 <span>Per Player:</span>
                 <input id="perPlayer" type="number" />
                 <br />
-                <button class="button mt-3 mb-2" onclick ="budgetCalculater()" >Calculate</button>
+                <button class="button mt-3 mb-2" onclick="budgetCalculater()">
+                  Calculate
+                </button>
                 <br />
                 <span>Player Expenses</span><span>$</span>
-                <span id="expenses" type="number">00</span>
+                <span id="expenses" type="number" class="font-weight-bold"
+                  >00</span
+                >
                 <br />
                 <span class="mt-3">Manager:</span>
                 <input id="manager" type="number" />
@@ -151,10 +193,15 @@
                 <span>Coach:</span>
                 <input id="coach" class="ms-3 mt-2" type="number" />
                 <br />
-                <button  class="button mt-3 mb-2" onclick="budgetCalculaterTotal()">Calculate Total</button>
+                <button
+                  class="button mt-3 mb-2"
+                  onclick="budgetCalculaterTotal()"
+                >
+                  Calculate Total
+                </button>
                 <br />
                 <span>Total:</span><span>$</span>
-                <span id="budgetTotal">00</span>
+                <span id="budgetTotal" class="font-weight-bold">00</span>
               </div>
             </div>
           </div>
