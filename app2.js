@@ -23,7 +23,7 @@ document.getElementById("meo").addEventListener("click", function () {
 //     }
 // }
 
-//Button disabled 
+// Button disabled 
 // const button = document.querySelector('#button');
 
 // const disableButton = () => {

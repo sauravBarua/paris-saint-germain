@@ -25,3 +25,12 @@ function buttonDisabled5() {
 function buttonDisabled6() {
   document.getElementById("player6").disabled = true;
 }
+
+function budgetCalculater() {
+  const countPlayer = document.getElementsByTagName("li");
+  const totalCount = countPlayer.length;
+  const numberString = parseInt(totalCount);
+  const perPlayer = parseInt(document.getElementById("perPlayer").value);
+  const total = numberString * perPlayer;
+  document.getElementById("expenses").innerHTML = total;
+}
