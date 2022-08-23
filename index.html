@@ -43,7 +43,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Kylian Mbappé</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
-                      <a href="#" class="button">SELECT</a>
+                      <a onclick="playerSelected('Kylian Mbappé')" href="#" class="button">SELECT</a>
                     </div>
                   </div>
                 </div>
@@ -57,7 +57,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Lionel Messi</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
-                      <a href="#" class="button">SELECT</a>
+                      <a onclick="playerSelected('Lionel Messi')" href="#" class="button">SELECT</a>
                     </div>
                   </div>
                 </div>
@@ -69,9 +69,9 @@
                       alt="Neymar"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Neymar</h5>
+                      <h5 class="card-title">Neymar Jr</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
-                      <a href="#" class="button">SELECT</a>
+                      <a onclick="playerSelected('Neymar Jr')" href="#" class="button">SELECT</a>
                     </div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Achraf Hakimi</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
-                      <a href="#" class="button">SELECT</a>
+                      <a onclick="playerSelected('Achraf Hakimi')" href="#" class="button">SELECT</a>
                     </div>
                   </div>
                 </div>
@@ -99,7 +99,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Gianluigi Donnarumma</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
-                      <a href="#" class="button">SELECT</a>
+                      <a onclick="playerSelected('Gianluigi Donnarumma')" href="#" class="button">SELECT</a>
                     </div>
                   </div>
                 </div>
@@ -113,7 +113,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Sergio Ramos</h5>
                       <p class="card-text">36 Goals * 120 Assist</p>
-                      <a href="#" class="button">SELECT</a>
+                      <a onclick="playerSelected('Sergio Ramos')" href="#" class="button">SELECT</a>
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,6 @@
               <div class="selected">
                 <h2 class="text-center">Selected-V</h2>
                 <ol id="playerName">
-                  <li>Joy</li>
                 </ol>
               </div>
               <div class="budget mt-4 text-center">
@@ -137,7 +136,7 @@
                 <br />
                 <button class="button mt-2 mb-1" >Calculate</button>
                 <br />
-                <span>Player Expenses</span>
+                <span>Player Expenses</span><span>$</span>
                 <span>5000</span>
                 <br />
                 <span class="mt-3">Manager:</span>
@@ -148,7 +147,7 @@
                 <br />
                 <button class="button mt-2 mb-2">Calculate Total</button>
                 <br />
-                <span>Total:</span>
+                <span>Total:</span><span>$</span>
                 <span>10000</span>
               </div>
             </div>
