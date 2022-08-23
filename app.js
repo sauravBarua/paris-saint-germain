@@ -34,3 +34,11 @@ function budgetCalculater() {
   const total = numberString * perPlayer;
   document.getElementById("expenses").innerHTML = total;
 }
+
+function budgetCalculaterTotal(){
+  const expenses = parseInt(document.getElementById("expenses").innerHTML);
+  const manager = parseInt(document.getElementById("manager").value);
+  const coach = parseInt(document.getElementById("coach").value);
+  const total = expenses + manager + coach;
+  document.getElementById("budgetTotal").innerHTML = total;
+}
